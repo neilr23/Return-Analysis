@@ -1,4 +1,4 @@
-# Return-Analysis
+# Return Analyzer
 
 This tool determines how one stock's returns correlate with another stock's returns.
 
