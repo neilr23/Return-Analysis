@@ -46,7 +46,8 @@ def returns_corr(stock_1, stock_2):
 	plt.ylabel('DEF Returns')
 	plt.plot(X, reg.predict(X), color='r')
 	plt.legend(['Slope: ' + str(round(reg.coef_[0], 5))])
-	plt.savefig('returns_plot.pdf')
+	plt.savefig('returns_plot.png')
+	plt.show()
 
 	return corr_s, corr_p
 
